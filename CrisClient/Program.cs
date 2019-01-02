@@ -95,7 +95,7 @@ namespace CrisClient
                                 webClient.DownloadFile(resultsUri, filename);
 
                                 var results = File.ReadAllText(filename);
-                                Console.WriteLine("Transcription succedded. Results: ");
+                                Console.WriteLine("Transcription succeeded. Results: ");
                                 Console.WriteLine(results);
                             }
                             break;
